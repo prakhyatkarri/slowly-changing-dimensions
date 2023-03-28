@@ -31,3 +31,13 @@ When a data element changes in an existing record, a new record will be added in
 
 ![image](./scd2.png)
 
+### SCD 4 - Add a new column to store new value
+When a data element changes in an existing record, it's new value will be updated in a new column instead of inserting a new record in the table.
+
+**Before**: A Female Employee with a First Name as 'Jane' and Last Name as 'Smith'
+
+![image](./scd3.png)
+
+**After**: After marriage, this employee changed her last name to 'Doe'
+
+![image](./scd3-updated.png)
