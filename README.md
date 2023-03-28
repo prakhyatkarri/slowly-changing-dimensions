@@ -12,5 +12,14 @@ In this type, the data which was inserted in the record when it was created, wil
 
 ![image](./scd0.png)
 
+### SCD 1 - Overwrite changes
+When a data element changes in an existing record, that cell will be updated with its new value.
 
+**Example**: When an Address line is changed for a Customer, its new value will be updated on top of existing value.
+
+Before:
+![image](./scd1.png)
+
+After:
+![image](./scd1-updated.png)
 
