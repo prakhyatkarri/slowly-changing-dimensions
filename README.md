@@ -23,3 +23,11 @@ Before:
 After:
 ![image](./scd1-updated.png)
 
+
+### SCD 3 - Add a new record for new value
+When a data element changes in an existing record, a new record will be added instead of updating in-place. This method preserves history of the record and curent value at the same time.
+
+**Example**: When an Employee's position changed from Manager to Sr.Manager
+
+![image](./scd2.png)
+
